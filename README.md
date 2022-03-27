@@ -27,7 +27,7 @@ Using the Package
 
 2. **Store the token** in `~/.web3_storage_token` using the folowing command
 ```sh
- { echo 'ACCESS_TOKEN: your_access_token_here' } > ~/.web3_storage_tokenn
+ { echo 'ACCESS_TOKEN: your_access_token_here' } > ~/.web3_storage_token
 ```
 
 1. **start using the ackage**
