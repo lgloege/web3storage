@@ -16,10 +16,11 @@ Already Implemented
 
 Installation
 ----------
+*This package is currently only installable via GitHub*
 
-*Package is under active development. 
-Once all methods implemneted it will be available on PyPi 
-and hopefully conda-forge.*
+```sh
+pip install -e git+https://github.com/lgloege/web3storage#egg=web3storage
+```
 
 Using the Package
 ----------
@@ -38,7 +39,7 @@ import web3storage
 ws = web3storage.Client()
 
 # upload a file
-ws.upload("~/test.file.txt")
+ws.upload("~/test.file.txt", filename="test-file")
 ```
 
 Notes
