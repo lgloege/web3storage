@@ -4,6 +4,9 @@ import requests
 import json
 import os
 
+# https://stackoverflow.com/questions/12385179/how-to-send-a-multipart-form-data-with-requests-in-python
+# see above tutorial for working with car files
+
 
 def json_print(contents):
     """make JSON look good"""

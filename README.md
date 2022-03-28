@@ -6,6 +6,22 @@
 
 A Python3 package to interact with [Web3.Storage](https://web3.storage/).
 
+This package requires the `ipfs-car` and `carbites` command line tool (see [working with CAR files](https://web3.storage/docs/how-tos/work-with-car-files))
+
+**Install `ipfs-car` command line tool**
+```sh
+npm install -g ipfs-car
+```
+This tool is needed to creat CAR files behind the scenes.
+
+**Install `carbites` CLI**
+```sh
+npm install -g carbites-cli
+```
+This tool is needed to split CAR files into smaller chunks for upload
+
+
+
 Already Implemented
 ----------
 - `.upload()`: Store files using Web3.Storage. (limited to 100MB)
